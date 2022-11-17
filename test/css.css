@@ -1,0 +1,194 @@
+
+/*外層高度100%，邊框0*/
+html, body{
+    height: 100%;
+    margin:0;
+    padding:0; 
+}
+
+.wrap{
+    min-height: 100%
+    position relative;
+    margin-bottom: -20px;
+}
+
+
+
+
+/*logo*/
+#site {
+    position: relative;
+    float: left;
+    margin-top: 1.2em;
+    margin-left: 2em;
+}
+
+#site h1 {
+    margin: 0;
+    bottom: 1.5em;
+}
+
+#site img {
+    vertical-align: bottom;
+    position: relative;
+    height: 1.5em; 
+
+
+}
+
+
+/*選單*/
+
+nav { /*頁面位置，字大小字型*/
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 70px; 
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'times new roman', serif;
+    padding-top: 15px;
+    z-index: 1em;
+
+}
+ul.drop ul{
+    display: none;
+}
+ul.drop li:hover ul{
+display: block;
+}
+
+ul.drop li:hover ul a{
+display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav li a { /*按鈕間寬度 底下橫線*/
+    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-bottom: solid 2px transparent;
+    color: #2f3031;
+
+}
+
+nav li a:hover {
+    border-bottom-color: #2f3031;
+
+}
+
+header {
+    overflow: hidden;
+
+}
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  background: #b6bdc4;
+  height: 80px;
+  width: 100%;
+}
+
+
+/*主視覺*/
+
+.content{
+    box-sizing: border-box;
+    min-height: 100%;
+    max-height: 100%; 
+    padding-bottom: 0.6em;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+  max-width: 100%;
+  min-height :100%; 
+
+}
+
+
+
+/*尾巴*/
+
+footer p{
+    float: left;
+    position: relative;
+    margin-top: 3.2em;
+    margin-left: 7em;
+    font-size: 0.3em;
+    right: 2px;
+    color: #ffffff;
+}
+
+#iconmenu{
+    float: right;
+}
+
+#iconmenu ul{
+    margin:0;
+    padding: 0;
+    position: relative;
+    bottom: 15px;
+
+}
+#iconmenu li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 2em;
+
+}
+
+#iconmenu img{
+    margin-top: 1.5em;
+    border:none;
+    width: 25px;
+}
+
+#iconmenu li a { /*icon間距*/
+    float: left;
+    margin-left: 15px;
+}
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  background: #2f3031;
+  height: 45px;
+  width: 100%;
+}
+
+.zoomImage{
+    width:50%;
+    height:0;
+    padding-bottom: 50%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+.wrap{
+    margin:0 auto;
+}
+
+
+
+
+
